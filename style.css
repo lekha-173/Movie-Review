@@ -120,3 +120,18 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+@media (max-width:768px){
+  .search{
+    width:100%;
+    margin: auto;
+    top:25%;
+    color: grey;
+    text-align:left;
+  }
+}
+@media (max-width:600px){
+  .header{
+    padding: 18px 4%;
+  }  
+}
